@@ -15,7 +15,7 @@ printf ')\n'                                                            >> $file
 # add jira ticket number to front of message 
 printf 'if [ ! -z "$JIRA_TICKET" ]; then\n'                             >> $filePath
 printf '\tCOMMIT_MSG=$(cat $1)\n'                                       >> $filePath
-printf '\techo "JIRA_CLOUD: $JIRA_TICKET $COMMIT_MSG" > $1\n'                       >> $filePath
+printf '\techo "JIRA_CLOUD: $JIRA_TICKET $COMMIT_MSG" > $1\n'           >> $filePath
 printf 'fi\n'                                                           >> $filePath
 
 # remove formatter program
