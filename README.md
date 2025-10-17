@@ -11,6 +11,6 @@ The base technology that allows this is Git Hooks and if you would like to know 
 4. The file will delete itself after use. To validate it worked, check the file '.git/hooks/prepare-commit-msg' to see if it contain the necessary logic, or you can make a commit and see if it added the jira ticket.
 
 # Things Michael should add 
-[ ] Addility to take a file path as an imput, and have the default file path assume it is in top level of repo\
-[ ] Error checkers for touch, chmod, and printf\
+- [ ] Addility to take a file path as an imput, and have the default file path assume it is in top level of repo\
+- [ ] Error checkers for touch, chmod, and printf\
 
